@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "508387324264",
+    "project_id": "mrfoodie-4de07",
+    "storage_bucket": "mrfoodie-4de07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508387324264:android:133435b583bb94e521a6dd",
+        "android_client_info": {
+          "package_name": "com.example.mrfoodie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508387324264-qbmjm9lfci3hoauipn9mvie276us4jvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mrfoodie",
+            "certificate_hash": "7d997519f8dafdf88ca49b7ff71682c66159337c"
+          }
+        },
+        {
+          "client_id": "508387324264-kqf0cs76cbcgij8tmsj99u9o6rjkkti5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOkAefn9IuHnggD41CFMLdSm1bsmFTItk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508387324264-kqf0cs76cbcgij8tmsj99u9o6rjkkti5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
