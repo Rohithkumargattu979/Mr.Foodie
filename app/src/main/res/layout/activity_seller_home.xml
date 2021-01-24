@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SellerHome">
+    <TextView
+        android:id="@+id/res_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller Home"
+        android:textSize="40sp"
+        android:textColor="#db650b"
+        android:fontFamily="@font/montserrat"
+       android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/res_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="30sp"
+        android:textColor="#db650b"
+        android:fontFamily="@font/montserrat"
+        android:layout_gravity="center" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available for orders"
+        android:textSize="30sp"
+        android:layout_marginTop="50sp"
+        android:textColor="#db650b"
+        android:checked="false"
+        android:fontFamily="@font/patrick_hand"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_the_food_items"
+        android:id="@+id/lisf"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="lsf"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/bg7"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textSize="18dp"
+        android:onClick="Logout"
+        android:text="logout" />
+
+
+
+
+
+
+</LinearLayout>

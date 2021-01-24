@@ -8,14 +8,61 @@
     tools:context=".Login"
     android:orientation="vertical"
     android:padding="20dp">
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="logout"
-        android:onClick="Logout"
-        android:layout_gravity="center"/>
+        android:text="Restaurants Available"
+        android:textColor="@color/black"
+        android:fontFamily="@font/patrick_hand"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        />
+    <com.google.android.material.card.MaterialCardView
+        android:visibility="invisible"
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="#db650b"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/res"
+                android:layout_marginTop="30dp"
+                android:textSize="40sp"
+                android:textColor="#733b18"
+                android:textAlignment="center"
+                android:fontFamily="@font/patrick_hand"
+                android:background="#db650b"
+                android:visibility="invisible"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
 
+    </com.google.android.material.card.MaterialCardView>
 
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/no_res"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="No Restaurants Available"
+        android:textColor="#fa1e1e"
+        android:fontFamily="@font/patrick_hand"
+        android:gravity="center"
+        android:layout_marginTop="120dp"
+        android:textSize="30sp"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:background="@color/white"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
 
 
 </LinearLayout>

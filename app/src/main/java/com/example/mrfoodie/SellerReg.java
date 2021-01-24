@@ -40,10 +40,10 @@ public class SellerReg extends AppCompatActivity {
     EditText mRestaurant, mAdd1, mAdd2, mAdd3;
     Button mLocation, mSave;
     ProgressBar progressBar;
+    TextView t1;
     FirebaseAuth sfAuth;
     FirebaseFirestore sfStore;
     ProgressDialog progressDialog;
-    TextView t1;
     WifiManager wifiManager;
     int PLACE_REQUEST = 1;
     String lon, lat, sUserID, apiKey = "AIzaSyDOkAefn9IuHnggD41CFMLdSm1bsmFTItk";
@@ -141,7 +141,7 @@ public class SellerReg extends AppCompatActivity {
                         Log.d(TAG, "onFailure: " + e.toString());
                     }
                 });
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(getApplicationContext(),SellerReg.class));
                 finish();
                 /*documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
@@ -154,7 +154,7 @@ public class SellerReg extends AppCompatActivity {
                         Log.d(TAG, "onFailure: " + e.toString());
                     }
                 });*/
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(getApplicationContext(),SellerHome.class));
 
             /*else {
                 Toast.makeText(Register.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();

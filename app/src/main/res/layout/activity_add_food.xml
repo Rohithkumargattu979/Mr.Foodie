@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddFood">
+    <ImageView
+        android:id="@+id/fimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_image"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Item Name"
+        android:layout_marginTop="30dp"
+        android:id="@+id/itname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Item Cost"
+        android:id="@+id/itcost"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Item Description"
+        android:id="@+id/itdes"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#db650b"
+        android:text="Select Image"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="100dp"
+        android:id="@+id/selimg"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#db650b"
+        android:text="Add Food Item"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:onClick="uploadfood"
+        android:id="@+id/addf"/>
+
+
+</LinearLayout>

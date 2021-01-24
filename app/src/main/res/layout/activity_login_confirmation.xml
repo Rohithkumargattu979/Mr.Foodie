@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/bg6"
-    tools:context=".Confirmation">
+    tools:context=".LoginConfirmation">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,24 +26,24 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"/>
     <Button
-        android:id="@+id/confirm_customer"
+        android:id="@+id/login_customer"
         android:layout_width="300sp"
         android:layout_height="100sp"
         android:layout_gravity="center"
-        android:text="Customer"
-        android:textSize="25sp"
+        android:text="Login as Customer"
+        android:textSize="20sp"
         android:layout_marginTop="30dp"
-        android:onClick="ccustomer"
+        android:onClick="lcustomer"
         />
     <Button
-        android:id="@+id/confirm_seller"
+        android:id="@+id/login_seller"
         android:layout_width="300sp"
         android:layout_height="100sp"
         android:layout_gravity="center"
-        android:text="Seller"
-        android:textSize="25sp"
+        android:text="Login as Seller"
+        android:textSize="20sp"
         android:layout_marginTop="60dp"
-        android:onClick="cseller"
+        android:onClick="lseller"
         />
 
 </LinearLayout>

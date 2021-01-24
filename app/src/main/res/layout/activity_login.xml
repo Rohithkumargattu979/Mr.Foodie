@@ -4,27 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="@drawable/bg4"
     tools:context=".Login"
     android:orientation="vertical"
     android:padding="20dp">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WELCOME!"
-        android:textColor="#000000"
-        android:textSize="40sp"
-        android:layout_gravity="center"/>
-
+        android:layout_gravity="center"
+        android:fontFamily="@font/lobster_two"
+        android:text="Mr.Foodie"
+        android:layout_marginTop="0sp"
+        android:textColor="#733b18"
+        android:textSize="70sp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10sp"
         android:fontFamily="@font/lobster_two"
-        android:text="Mr.Foodie"
+        android:text="Hunger Saviour"
+        android:layout_marginTop="0sp"
         android:textColor="#db650b"
-        android:textSize="60sp" />
+        android:textSize="40sp" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview"

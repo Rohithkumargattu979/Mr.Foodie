@@ -16,18 +16,20 @@ public class Confirmation extends AppCompatActivity {
         setContentView(R.layout.activity_confirmation);
         mCustomer = findViewById(R.id.confirm_customer);
         mSeller = findViewById(R.id.confirm_seller);
-
-
         mCustomer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
-
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
             }
         });
+
     }
 
     public void cseller(View view) {
         startActivity(new Intent(getApplicationContext(), SellerReg.class));
+    }
+
+    public void ccustomer(View view) {
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 }

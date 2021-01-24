@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="@drawable/bg5"
     tools:context=".SellerReg">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="40sp"
-        android:text="Enter Your Details"
+        android:text="Enter Restaurant Details"
         android:fontFamily="@font/lobster_two"
-        android:textColor="#db650b"
+        android:textColor="#fa0293"
         android:layout_gravity="center"
         android:layout_marginTop="80sp"/>
     <LinearLayout
