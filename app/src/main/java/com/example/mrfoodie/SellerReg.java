@@ -69,20 +69,6 @@ public class SellerReg extends AppCompatActivity {
 
 
 
-       /* mLocation.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
-                try {
-                    startActivityForResult(builder.build(SellerReg.this),PLACE_REQUEST);
-                } catch (GooglePlayServicesRepairableException e) {
-                    e.printStackTrace();
-                } catch (GooglePlayServicesNotAvailableException e) {
-                    e.printStackTrace();
-                }
-            }
-        });*/
-
        mLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
