@@ -85,7 +85,6 @@ public class AddFood extends AppCompatActivity {
                 Uri urlImage = uriTask.getResult();
                 imageUrl = urlImage.toString();
                 uploadRecipe();
-                //Toast.makeText(AddFood.this, "Image Uploaded", Toast.LENGTH_SHORT).show();
 
             }
         });
