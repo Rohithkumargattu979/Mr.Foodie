@@ -53,7 +53,7 @@ public class AddFood extends AppCompatActivity {
                 PhotoPicker.setAction(Intent.ACTION_GET_CONTENT);
                 startActivityForResult(Intent.createChooser(PhotoPicker,
                         "Select Picture"), 1);
-                //startActivityForResult(PhotoPicker, 1);
+                
             }
         });
 
